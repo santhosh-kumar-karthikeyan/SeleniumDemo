@@ -1,0 +1,72 @@
+{
+  "summary": {
+    "total_tests": 3,
+    "passed_tests": 2,
+    "failed_tests": 1,
+    "success_rate": "66.7%",
+    "total_execution_time": "25.98s",
+    "start_time": "2025-08-08T03:44:37.717717",
+    "end_time": "2025-08-08T03:45:04.255575"
+  },
+  "test_results": [
+    {
+      "test_name": "Comprehensive Form Automation",
+      "status": "FAILED",
+      "details": "Exception: Message: \nStacktrace:\n#0 0x556d8a0a72ca <unknown>\n#1 0x556d89b4e550 <unknown>\n#2 0x556d89ba00f0 <unknown>\n#3 0x556d89ba02e1 <unknown>\n#4 0x556d89bee5e4 <unknown>\n#5 0x556d89bc5bed <unknown>\n#6 0x556d89beb9e6 <unknown>\n#7 0x556d89bc5993 <unknown>\n#8 0x556d89b91d6b <unknown>\n#9 0x556d89b93141 <unknown>\n#10 0x556d8a06c2ab <unknown>\n#11 0x556d8a0700b9 <unknown>\n#12 0x556d8a053139 <unknown>\n#13 0x556d8a070c68 <unknown>\n#14 0x556d8a03760f <unknown>\n#15 0x556d8a0951f8 <unknown>\n#16 0x556d8a0953d6 <unknown>\n#17 0x556d8a0a65e6 <unknown>\n#18 0x7f209fb9c7eb <unknown>\n#19 0x7f209fc2020c <unknown>\n",
+      "execution_time": 15.12339186668396,
+      "timestamp": "2025-08-08T03:44:53.403062"
+    },
+    {
+      "test_name": "Multi-Element Interactions",
+      "status": "PASSED",
+      "details": "Multiple element interactions completed in 6.96s",
+      "execution_time": 6.955763339996338,
+      "timestamp": "2025-08-08T03:45:00.358989"
+    },
+    {
+      "test_name": "Advanced Scenarios",
+      "status": "PASSED",
+      "details": "Advanced scenarios completed in 3.90s",
+      "execution_time": 3.896474599838257,
+      "timestamp": "2025-08-08T03:45:04.255535"
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "form_loaded",
+      "description": "Practice form loaded",
+      "filepath": "/home/s4ndy/Projects/SeleniumDemo/screenshots/20250808_034442_form_loaded.png",
+      "timestamp": "20250808_034442"
+    },
+    {
+      "name": "elements_page",
+      "description": "Elements page loaded",
+      "filepath": "/home/s4ndy/Projects/SeleniumDemo/screenshots/20250808_034454_elements_page.png",
+      "timestamp": "20250808_034454"
+    },
+    {
+      "name": "textbox_output",
+      "description": "Text Box output displayed",
+      "filepath": "/home/s4ndy/Projects/SeleniumDemo/screenshots/20250808_034455_textbox_output.png",
+      "timestamp": "20250808_034455"
+    },
+    {
+      "name": "buttons_clicked",
+      "description": "All buttons clicked",
+      "filepath": "/home/s4ndy/Projects/SeleniumDemo/screenshots/20250808_034500_buttons_clicked.png",
+      "timestamp": "20250808_034500"
+    },
+    {
+      "name": "alerts_page",
+      "description": "Alerts page loaded",
+      "filepath": "/home/s4ndy/Projects/SeleniumDemo/screenshots/20250808_034500_alerts_page.png",
+      "timestamp": "20250808_034500"
+    },
+    {
+      "name": "advanced_completed",
+      "description": "Advanced scenarios completed",
+      "filepath": "/home/s4ndy/Projects/SeleniumDemo/screenshots/20250808_034504_advanced_completed.png",
+      "timestamp": "20250808_034504"
+    }
+  ]
+}

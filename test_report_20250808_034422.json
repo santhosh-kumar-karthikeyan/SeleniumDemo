@@ -1,0 +1,60 @@
+{
+  "summary": {
+    "total_tests": 3,
+    "passed_tests": 1,
+    "failed_tests": 2,
+    "success_rate": "33.3%",
+    "total_execution_time": "23.22s",
+    "start_time": "2025-08-08T03:43:58.220897",
+    "end_time": "2025-08-08T03:44:22.201326"
+  },
+  "test_results": [
+    {
+      "test_name": "Comprehensive Form Automation",
+      "status": "FAILED",
+      "details": "Exception: Message: \nStacktrace:\n#0 0x55c6e17b62ca <unknown>\n#1 0x55c6e125d550 <unknown>\n#2 0x55c6e12af0f0 <unknown>\n#3 0x55c6e12af2e1 <unknown>\n#4 0x55c6e12fd5e4 <unknown>\n#5 0x55c6e12d4bed <unknown>\n#6 0x55c6e12fa9e6 <unknown>\n#7 0x55c6e12d4993 <unknown>\n#8 0x55c6e12a0d6b <unknown>\n#9 0x55c6e12a2141 <unknown>\n#10 0x55c6e177b2ab <unknown>\n#11 0x55c6e177f0b9 <unknown>\n#12 0x55c6e1762139 <unknown>\n#13 0x55c6e177fc68 <unknown>\n#14 0x55c6e174660f <unknown>\n#15 0x55c6e17a41f8 <unknown>\n#16 0x55c6e17a43d6 <unknown>\n#17 0x55c6e17b55e6 <unknown>\n#18 0x7fe8b4f817eb <unknown>\n#19 0x7fe8b500520c <unknown>\n",
+      "execution_time": 16.418641328811646,
+      "timestamp": "2025-08-08T03:44:15.401067"
+    },
+    {
+      "test_name": "Multi-Element Interactions",
+      "status": "FAILED",
+      "details": "Exception: Message: element click intercepted: Element <button id=\"submit\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (672, 855). Other element would receive the click: <iframe frameborder=\"0\" src=\"https://bc4d893b58f267fa46edfc5489547160.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html\" id=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" title=\"3rd party ad content\" name=\"\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" width=\"728\" height=\"90\" data-is-safeframe=\"true\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" allow=\"private-state-token-redemption;attribution-reporting\" aria-label=\"Advertisement\" tabindex=\"0\" data-google-container-id=\"1\" style=\"border: 0px; vertical-align: bottom;\" data-load-complete=\"true\"></iframe>\n  (Session info: chrome=138.0.7204.168); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception\nStacktrace:\n#0 0x55c6e17b62ca <unknown>\n#1 0x55c6e125d550 <unknown>\n#2 0x55c6e12b5f5c <unknown>\n#3 0x55c6e12b3dc2 <unknown>\n#4 0x55c6e12b1462 <unknown>\n#5 0x55c6e12b0b80 <unknown>\n#6 0x55c6e12a32ea <unknown>\n#7 0x55c6e12d4bc2 <unknown>\n#8 0x55c6e12a2c6a <unknown>\n#9 0x55c6e12d4d8e <unknown>\n#10 0x55c6e12fa9e6 <unknown>\n#11 0x55c6e12d4993 <unknown>\n#12 0x55c6e12a0d6b <unknown>\n#13 0x55c6e12a2141 <unknown>\n#14 0x55c6e177b2ab <unknown>\n#15 0x55c6e177f0b9 <unknown>\n#16 0x55c6e1762139 <unknown>\n#17 0x55c6e177fc68 <unknown>\n#18 0x55c6e174660f <unknown>\n#19 0x55c6e17a41f8 <unknown>\n#20 0x55c6e17a43d6 <unknown>\n#21 0x55c6e17b55e6 <unknown>\n#22 0x7fe8b4f817eb <unknown>\n#23 0x7fe8b500520c <unknown>\n",
+      "execution_time": 2.531475782394409,
+      "timestamp": "2025-08-08T03:44:17.932596"
+    },
+    {
+      "test_name": "Advanced Scenarios",
+      "status": "PASSED",
+      "details": "Advanced scenarios completed in 4.27s",
+      "execution_time": 4.268638610839844,
+      "timestamp": "2025-08-08T03:44:22.201277"
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "form_loaded",
+      "description": "Practice form loaded",
+      "filepath": "/home/s4ndy/Projects/SeleniumDemo/screenshots/20250808_034405_form_loaded.png",
+      "timestamp": "20250808_034405"
+    },
+    {
+      "name": "elements_page",
+      "description": "Elements page loaded",
+      "filepath": "/home/s4ndy/Projects/SeleniumDemo/screenshots/20250808_034416_elements_page.png",
+      "timestamp": "20250808_034416"
+    },
+    {
+      "name": "alerts_page",
+      "description": "Alerts page loaded",
+      "filepath": "/home/s4ndy/Projects/SeleniumDemo/screenshots/20250808_034419_alerts_page.png",
+      "timestamp": "20250808_034419"
+    },
+    {
+      "name": "advanced_completed",
+      "description": "Advanced scenarios completed",
+      "filepath": "/home/s4ndy/Projects/SeleniumDemo/screenshots/20250808_034422_advanced_completed.png",
+      "timestamp": "20250808_034422"
+    }
+  ]
+}
