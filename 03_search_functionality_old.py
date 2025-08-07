@@ -37,14 +37,15 @@ def demo_search_functionality():
         permanent_address = driver.find_element(By.ID, "permanentAddress")
         submit_button = driver.find_element(By.ID, "submit")
         
-        print("Filling out form with test data...")
+        # Fill out the form
         form_data = {
-            'name': 'Alex Johnson',
-            'email': 'alex.johnson@testmail.com',
-            'current_address': '123 Main Street, City, State 12345',
-            'permanent_address': '456 Oak Avenue, Town, State 67890'
+            'name': 'John Doe',
+            'email': 'john.doe@example.com',
+            'current_address': '123 Main St, Anytown, USA',
+            'permanent_address': '456 Oak Ave, Hometown, USA'
         }
         
+        print(f"⌨️  Filling form with test data...")
         name_field.clear()
         name_field.send_keys(form_data['name'])
         
@@ -57,42 +58,47 @@ def demo_search_functionality():
         permanent_address.clear()
         permanent_address.send_keys(form_data['permanent_address'])
         
-        print("Submitting form...")
+        print("⏎ Submitting form...")
         submit_button.click()
         
-        print("Waiting for form submission results...")
+        # Wait for results to appear
+        print("⏳ Waiting for form submission results...")
         WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.ID, "output"))
         )
         
+        # Verify form submission
         output_div = driver.find_element(By.ID, "output")
         if output_div.is_displayed():
-            print("Form submitted successfully!")
+            print("✅ Form submitted successfully!")
             
+            # Get the output text
             output_text = output_div.text
-            print(f"Form submission output:")
+            print(f"📋 Form submission output:")
             print(f"   {output_text}")
             
+            # Check if submitted data appears in output
             for key, value in form_data.items():
                 if value in output_text:
-                    print(f"   {key}: Found in output")
+                    print(f"   ✅ {key}: Found in output")
                 else:
-                    print(f"   {key}: Not found in output")
+                    print(f"   ⚠️ {key}: Not found in output")
         
         else:
-            print("Form submission output not visible")
+            print("❌ Form submission output not visible")
         
-        print("\nPausing to observe results...")
+        # Wait to observe results
+        print("\n⏳ Pausing to observe results...")
         time.sleep(3)
         
-        print("\nDemo 3 completed successfully!")
+        print("\n✅ Demo 3 completed successfully!")
         
     except Exception as e:
-        print(f"An error occurred: {str(e)}")
+        print(f"❌ An error occurred: {str(e)}")
     
     finally:
         if driver:
-            print("Closing browser...")
+            print("🔒 Closing browser...")
             driver.quit()
 
 if __name__ == "__main__":
